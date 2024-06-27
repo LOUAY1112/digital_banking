@@ -9,70 +9,37 @@ body{
 .navbar {
     background-color: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
+  }
 
-.navbar-brand {
+  .navbar-brand {
     padding: 0;
-}
-
-.navbar-toggler {
+  }
+  
+  .navbar-toggler {
     border: none;
-}
+  }
 
-.navbar-toggler .open-icon {
-    display: inline;
-}
-
-.navbar-toggler .close-icon {
-    display: none;
-}
-
-.navbar-toggler.collapsed .open-icon {
-    display: inline;
-}
-
-.navbar-toggler.collapsed .close-icon {
-    display: none;
-}
-
-.navbar-toggler:not(.collapsed) .open-icon {
-    display: none;
-}
-
-.navbar-toggler:not(.collapsed) .close-icon {
-    display: inline;
-}
-
-.navbar-nav {
+  .navbar-nav {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-}
-
-.navbar-nav .nav-item {
-    padding: 0 15px;
-    margin-right: 20px;
-    margin-left: 20px;
-    font-family: "Playwrite AU QLD", cursive;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
+  }
+  .navbar-nav .nav-item {
+    padding: 0 15px; /* Optional padding between nav items */
+  }
 
 .navbar-nav .nav-link {
     color: #2d314d;
     font-size: 16px;
     font-weight: 500;
     padding: 0.5rem 1rem;
-    transition: color 0.3s ease;
-}
+    transition: 0.3s ease;
+  }
 
-.navbar-nav .nav-link:hover {
-    color: #22c1c3;
-}
-
+  
+  
 .text-title {
-    margin-right: 120px;
+    margin-right: 120px; 
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -93,55 +60,19 @@ body{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-  
 }
-
-.btn-request {
+.btn-request{
     width: 200px !important;
 }
 
-.btn:hover {
-    background: linear-gradient(185deg, rgba(45, 253, 174, 1) 1%, rgba(34, 193, 195, 1) 46%);
-}
-
-.dropdown_menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 70px; /* Adjust according to your navbar height */
-    right: 0;
-    background-color: #fff;
-    width: 100%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.dropdown_menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.dropdown_menu ul li {
-    padding: 10px 20px;
-}
-
-.dropdown_menu ul li a {
-    color: #2d314d;
-    text-decoration: none;
-    font-size: 16px;
+.nav-item {
+    margin-right: 20px;
+    margin-left: 20px;
     font-family: "Playwrite AU QLD", cursive;
-    display: block;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
-
-.dropdown_menu ul li a:hover {
-    color: #22c1c3;
-}
-
-.toggle_btn {
-    display: none;
-    cursor: pointer;
-}
-
 
 h1 {
     font-family: "cursive";
@@ -260,15 +191,6 @@ h4 {
 
 
 @media (max-width: 768px) {
-    
-    
-    .navbar-nav {
-        display: none;
-    }
-   
-  
-    
-    
     .btn-request  {
         display: none !important;
     }
@@ -290,7 +212,6 @@ h4 {
     .footer-section .social-icons {
         justify-content: center;
     }
-   
 }
 
 @media (max-width: 430px) {
